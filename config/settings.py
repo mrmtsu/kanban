@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4$)!&9viaq)u@x_i-ngipky%vn7(vutrb1@l7nie(%^e+-s#%c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["kanban-20200417.herokuapp.com"]
 
@@ -131,7 +131,7 @@ LOGIN_REDIRECT_URL = "kanban:home"
 LOGOUT_REDIRECT_URL = "kanban:index"
 LOGIN_URL = "login"
 
-DEBUG = False
+
 
 try:
     from config.local_settings import *
