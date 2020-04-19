@@ -4,12 +4,8 @@ from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
-from django.views.generic import DetailView
 from django.shortcuts import render, redirect, resolve_url, get_object_or_404
-from django.views.generic import DetailView, UpdateView
 from django.urls import reverse_lazy
-from django.views.generic import DetailView, UpdateView, CreateView
-from django.views.generic import DetailView, UpdateView, CreateView, ListView 
 from django.views.generic import DetailView, UpdateView, CreateView, ListView, DeleteView
 
 from .forms import UserForm
